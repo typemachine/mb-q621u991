@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Typemachine</title>
+<style>
+  * { box-sizing: border-box; }
+  html { background: #111; color: #f4f4f2; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; }
+  body { margin: 0; }
+  header, footer, #palette { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  header { padding-top: 72px; padding-bottom: 56px; }
+  h1 { margin: 0 0 16px; font-size: 40px; line-height: 1.1; font-weight: 600; letter-spacing: -.02em; text-wrap: balance; }
+  header p { margin: 0; font-size: 18px; line-height: 1.5; opacity: .8; text-wrap: pretty; }
+  main { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr);
+    gap: 16px; padding: 0px; height: 100vh; min-height: 480px; }
+  figure { position: relative; margin: 0; overflow: hidden; border-radius: 0px; background: #1b1b1b; }
+  img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 12px 10px; font-size: 13px; color: #fff;
+    background: linear-gradient(transparent, rgb(0 0 0 / .7)); opacity: 0; transition: opacity 150ms ease; }
+  figure:hover figcaption, figure:focus-within figcaption { opacity: 1; }
+  @media (hover: none) { figcaption { opacity: 1; } }
+  a { color: inherit; }
+  #palette { padding-top: 64px; }
+  #palette:empty { display: none; }
+  h2 { margin: 0 0 16px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; opacity: .6; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
+  li span { display: block; height: 88px; border-radius: 6px; border: 1px solid rgb(255 255 255 / .12); margin-bottom: 8px; }
+  li b { display: block; font-weight: 600; }
+  code { font: 13px ui-monospace, "SF Mono", monospace; opacity: .7; }
+  footer { padding-top: 64px; padding-bottom: 72px; font-size: 13px; opacity: .6; }
+  footer p { margin: 0 0 4px; }
+  @media (max-width: 700px) {
+    h1 { font-size: 30px; }
+    main { display: block; height: auto; min-height: 0; padding: 0px; }
+    figure { margin-bottom: 16px; }
+    img { height: auto; }
+  }
+  @media (prefers-reduced-motion: reduce) { figcaption { transition: none; } }
+</style>
+</head>
+<body>
+<header><h1>Typemachine</h1><p>I want this to emulate the look and feel for the new typemachine website. Claude adds: the pins share one move, a single word set so large in a heavy grotesk that it runs edge to edge and becomes the layout, with small, plain text placed around it on a strict grid. The palette is black and warm off-white, with one flat signal red. Nothing is decorative: no shadows, gradients or rounding, and the one photograph is grainy black and white.</p></header>
+<main>
+<figure style="grid-area: 1 / 1 / span 2 / span 2"><img src="images/01.png" alt="navigation header · giant wordmark" loading="lazy" style="object-position: 33.3% 50%"><figcaption><a href="https://mobbin.com/sites/sections/082e8338-c62d-4080-a4a0-a5a8a8caa6ac" target="_blank" rel="noopener">Mobbin ↗</a></figcaption></figure>
+<figure style="grid-area: 2 / 3 / span 2 / span 2"><img src="images/02.png" alt="giant red numeral" loading="lazy" style="object-position: 50% 50%"><figcaption><a href="https://www.are.na/block/16094372" target="_blank" rel="noopener">Are.na · swiss-international-typographic ↗</a></figcaption></figure>
+<figure style="grid-area: 1 / 3 / span 1 / span 1"><img src="images/03.jpg" alt="hero headline · condensed giant" loading="lazy" style="object-position: -0.0% 50%"><figcaption><a href="https://www.details.so/inspo/olhalazarieva-69lysk" target="_blank" rel="noopener">Details ↗</a></figcaption></figure>
+<figure style="grid-area: 1 / 4 / span 1 / span 1"><img src="images/04.png" alt="red heavy lowercase" loading="lazy" style="object-position: 50% 48.8%"><figcaption><a href="https://www.are.na/block/51253894" target="_blank" rel="noopener">Are.na · swiss-international-typographic ↗</a></figcaption></figure>
+<figure style="grid-area: 3 / 1 / span 1 / span 1"><img src="images/05.jpg" alt="blurred night street" loading="lazy" style="object-position: -0.0% 50%"><figcaption><a href="https://butdoesitfloat.com" target="_blank" rel="noopener">Reference · butdoesitfloat.com ↗</a></figcaption></figure>
+<figure style="grid-area: 3 / 2 / span 1 / span 1"><img src="images/06.png" alt="footer · giant wordmark" loading="lazy" style="object-position: -0.0% 50%"><figcaption><a href="https://www.details.so/inspo/chew-69mroc" target="_blank" rel="noopener">Details ↗</a></figcaption></figure>
+</main>
+<section id="palette"><h2>Palette</h2><ul><li><span style="background: #232326"></span><b>Ink black</b><code>#232326</code></li><li><span style="background: #EBE7E0"></span><b>Warm off-white</b><code>#EBE7E0</code></li><li><span style="background: #F01A0A"></span><b>Signal red</b><code>#F01A0A</code></li><li><span style="background: #FBFBF2"></span><b>Paper white</b><code>#FBFBF2</code></li></ul></section>
+<footer><p>Published 13 November 2026.</p><p>Images are references collected from the sources linked, and belong to their owners.</p></footer>
+</body>
+</html>
